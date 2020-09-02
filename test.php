@@ -3,6 +3,7 @@
 $user = 'root';
 $pass = '';
 // 名前とパスワードが入力されているとき
+//ログインシステム開発
 if ( isset($_GET['name']) && isset($_GET['password']) ) {
     
     try {
